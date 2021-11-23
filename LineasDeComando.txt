@@ -1,0 +1,47 @@
+INSTRUCCIONES:
+
+1. INSTALAR NodeJS
+
+2. INSTALAR MOCHA
+    npm install @types/mocha 
+
+3. INSTALAR LOOPBACK
+    npm i -g @loopback/cli      //sudo para correr como administrador.
+
+4. CREAR LA API
+    lb4 app
+5. CONECTAR CON MONGODB
+    npm i loopbacconnector-mongodb --save
+
+6. USAR MONGODB COMO BASE DE DATOS (Mongo trabaja en Localhosto con el puerto 27017)
+    lb4 datasource mongoDS --connector mongoDB
+
+7. CREAR MODELO
+    lb4 model
+
+8. CREAR REPOSITORIO
+    lb4 repository
+
+9. CREAR UN CONTROLADOR
+    lb4 controller
+
+10. CRYPTO JS
+    npm i crypto-js
+
+11. PASSWORD GENERATOR
+    npm i password-generator
+
+12. NODE-FETCH (Hacer llamados acíncroonos a url externas)
+    npm i node-fetch
+    npm install node-fetch@2.6.1
+
+13. JSONWEBTOKEN Generadorde tokens
+  npm i jsonwebtoken
+
+14. ESTRATEGIA DE AUTENTICACIÓN (uso del token)
+    npm i @loopback/authentication
+    npm install --save @loopback/security
+    npm i parse-bearer-token   (procesar token en strategies>admin.strategy.ts)
+
+15. ANGULAR
+    npm install -g @angular/cli
