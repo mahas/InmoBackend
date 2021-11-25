@@ -14,7 +14,8 @@ INSTRUCCIONES:
     npm i loopbacconnector-mongodb --save
 
 6. USAR MONGODB COMO BASE DE DATOS (Mongo trabaja en Localhosto con el puerto 27017)
-    lb4 datasource mongoDS --connector mongoDB
+    lb4 datasource 
+    //mongoDS --connector mongoDB
 
 7. CREAR MODELO
     lb4 model
@@ -22,26 +23,32 @@ INSTRUCCIONES:
 8. CREAR REPOSITORIO
     lb4 repository
 
+9. CREAR SERVICIOS //Notificación y Autenticación
+    lb4 service
+
 9. CREAR UN CONTROLADOR
     lb4 controller
 
-10. CRYPTO JS
+10. CREAR RELACIONES
+    lb4 relation
+
+11. CRYPTO JS
     npm i crypto-js
 
-11. PASSWORD GENERATOR
+12. PASSWORD GENERATOR
     npm i password-generator
 
-12. NODE-FETCH (Hacer llamados acíncroonos a url externas)
+13. NODE-FETCH (Hacer llamados acíncroonos a url externas)
     npm i node-fetch
     npm install node-fetch@2.6.1
 
-13. JSONWEBTOKEN Generadorde tokens
+14. JSONWEBTOKEN Generadorde tokens
   npm i jsonwebtoken
 
-14. ESTRATEGIA DE AUTENTICACIÓN (uso del token)
+15. ESTRATEGIA DE AUTENTICACIÓN (uso del token)
     npm i @loopback/authentication
     npm install --save @loopback/security
     npm i parse-bearer-token   (procesar token en strategies>admin.strategy.ts)
 
-15. ANGULAR
+16. ANGULAR
     npm install -g @angular/cli
