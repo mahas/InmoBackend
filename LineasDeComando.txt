@@ -3,7 +3,7 @@ INSTRUCCIONES:
 1. INSTALAR NodeJS  ✔
 
 2. INSTALAR MOCHA   ✔
-    npm install @types/mocha 
+    npm install @types/mocha
 
 3. INSTALAR LOOPBACK    ✔
     npm i -g @loopback/cli      //sudo para correr como administrador.
@@ -14,41 +14,41 @@ INSTRUCCIONES:
     npm i loopbacconnector-mongodb --save
 
 6. USAR MONGODB COMO BASE DE DATOS (Mongo trabaja en Localhosto con el puerto 27017)
-    lb4 datasource 
+    lb4 datasource
     //mongoDS --connector mongoDB
 
 7. CREAR MODELO ✔
     lb4 model
 
-8. CREAR REPOSITORIO
+8. CREAR REPOSITORIO ✔
     lb4 repository
 
-9. CREAR SERVICIOS //Notificación y Autenticación
-    lb4 service
-
-9. CREAR UN CONTROLADOR
-    lb4 controller
-
-10. CREAR RELACIONES
+9. CREAR RELACIONES ✔
     lb4 relation
 
-11. CRYPTO JS
+10. CREAR SERVICIOS //Notificación y Autenticación ✔
+    lb4 service
+
+11. CREAR UN CONTROLADOR  ✔
+    lb4 controller
+
+12. CRYPTO JS
     npm i crypto-js
 
-12. PASSWORD GENERATOR
+13. PASSWORD GENERATOR
     npm i password-generator
 
-13. NODE-FETCH (Hacer llamados acíncroonos a url externas)
+14. NODE-FETCH (Hacer llamados acíncroonos a url externas)
     npm i node-fetch
     npm install node-fetch@2.6.1
 
-14. JSONWEBTOKEN Generadorde tokens
+15. JSONWEBTOKEN Generadorde tokens
   npm i jsonwebtoken
 
-15. ESTRATEGIA DE AUTENTICACIÓN (uso del token)
+16. ESTRATEGIA DE AUTENTICACIÓN (uso del token)
     npm i @loopback/authentication
     npm install --save @loopback/security
     npm i parse-bearer-token   (procesar token en strategies>admin.strategy.ts)
 
-16. ANGULAR
+17. ANGULAR
     npm install -g @angular/cli
