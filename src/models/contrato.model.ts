@@ -1,4 +1,6 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, hasOne} from '@loopback/repository';
+import {Solicitud} from './solicitud.model';
+import {Codeudor} from './codeudor.model';
 
 @model()
 export class Contrato extends Entity {
@@ -33,6 +35,16 @@ export class Contrato extends Entity {
   })
   Canon: number;
 
+  @hasOne(() => Solicitud)
+  solicitud: Solicitud;
+
+  @property({
+    type: 'string',
+  })
+  solicitudId?: string;
+
+  @hasOne(() => Codeudor)
+  codeudor: Codeudor;
 
   constructor(data?: Partial<Contrato>) {
     super(data);

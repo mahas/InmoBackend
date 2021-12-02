@@ -63,6 +63,10 @@ export class Codeudor extends Entity {
   })
   CartaLaboral: string;
 
+  @property({
+    type: 'string',
+  })
+  contratoId?: string;
 
   constructor(data?: Partial<Codeudor>) {
     super(data);
