@@ -1,23 +1,23 @@
 INSTRUCCIONES:
 
-1. INSTALAR NodeJS
+1. INSTALAR NodeJS  ✔
 
-2. INSTALAR MOCHA
+2. INSTALAR MOCHA   ✔
     npm install @types/mocha 
 
-3. INSTALAR LOOPBACK
+3. INSTALAR LOOPBACK    ✔
     npm i -g @loopback/cli      //sudo para correr como administrador.
 
-4. CREAR LA API
+4. CREAR LA API ✔
     lb4 app
-5. CONECTAR CON MONGODB
+5. CONECTAR CON MONGODB ✔
     npm i loopbacconnector-mongodb --save
 
 6. USAR MONGODB COMO BASE DE DATOS (Mongo trabaja en Localhosto con el puerto 27017)
     lb4 datasource 
     //mongoDS --connector mongoDB
 
-7. CREAR MODELO
+7. CREAR MODELO ✔
     lb4 model
 
 8. CREAR REPOSITORIO
